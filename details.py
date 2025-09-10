@@ -1,0 +1,24 @@
+name="damini"
+age="19"
+mother_name="shakun"
+father_name="rajesh"
+brother_name="priyanshu"
+school_name= "pushker public high secondry school"
+hobby="reading"
+marks="93"
+friend_name="mahi"
+college_name="global"
+city="jabalpur"
+capital="bhopal"
+print(type(name))
+print(age)
+print(mother_name)
+print(father_name)
+print(brother_name)
+print(school_name)
+print(hobby)
+print(marks)
+print(friend_name)
+print(college_name)
+print(city)
+print(capital)
