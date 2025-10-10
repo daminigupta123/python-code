@@ -10,8 +10,10 @@ def is_prime(n):
             return False
     return True
 
-num = int(input("Enter a number: "))
-if is_prime(num):
-    print(f"{num} is a prime number.")
-else:
-    print(f"{num} is not a prime number.")
+start = int(input("Enter start number: "))
+end = int(input("Enter end number: "))
+
+print(f"Prime numbers between {start} and {end}:")
+for num in range(start, end + 1):
+    if is_prime(num):
+        print(num)
