@@ -1,11 +1,11 @@
-# find out hcf of two numbers
-def find_hcf(x, y):
-    if x > y:
-        smaller = y
-    else:
-        smaller = x
-    for i in range(1, smaller + 1):
-        if (x % i == 0) and (y % i == 0):
-            hcf = i
-    return hcf
-print(find_hcf(12, 18))
+# # find out hcf of two numbers
+
+def hcf(a, b):
+    a, b = abs(a), abs(b)
+    while b:
+        a, b = b, a % b
+    return a
+if __name__ == "__main__":
+    x = int(input("Enter first number: "))
+    y = int(input("Enter second number: "))
+    print(f"HCF of {x} and {y} is {hcf(x, y)}")
