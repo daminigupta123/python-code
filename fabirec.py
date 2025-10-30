@@ -6,6 +6,6 @@ def fib(n, memo={0: 0, 1: 1}):
     return memo[n]
 
 if __name__ == "__main__":
-    print("First 20 Fibonacci numbers (recursion):")
+    print("First 10 Fibonacci numbers (recursion):")
     for i in range(10):
         print(fib(i))
