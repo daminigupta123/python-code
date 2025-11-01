@@ -1,6 +1,6 @@
 
 inches = float(input("Enter measurement in inches: "))
-
+#formula is :
 feet = inches / 12
 yards = inches / 36
 centimetres = inches * 2.54
