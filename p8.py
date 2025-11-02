@@ -1,11 +1,9 @@
+import io, sys
+sys.stdin = io.StringIO("2\n3 10\n6 2\n")
 def last_digit_power(a, b):
     if b == 0:
-        return 1
-    
-    # Get last digit of base
-    a = a % 10
-    
-    # Find pattern of last digits
+     return 1
+     a = a % 10
     pattern = []
     temp = a
     while True:
@@ -13,17 +11,11 @@ def last_digit_power(a, b):
             pattern.append(temp)
         else:
             break
-        temp = (temp * a) % 10
-    
-    # Use pattern length to find last digit
+    temp = (temp * a) % 10
     pattern_length = len(pattern)
     index = (b - 1) % pattern_length
     return pattern[index]
-
-# Read number of test cases
-N = int(input())
-
-# Process each test case
+    N = int(input())
 for _ in range(N):
     a, b = map(int, input().split())
     result = last_digit_power(a, b)
