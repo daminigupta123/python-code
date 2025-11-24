@@ -7,3 +7,7 @@ print(t)
 t="damini",
 print(type(t))
 print(t)
+t=('satish','murali')
+print(t[1])
+t=('satish',('raju',123))
+print(t[1])
