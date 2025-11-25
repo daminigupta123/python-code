@@ -27,6 +27,9 @@ print(t)
 t=(1,2,3,3)+(4,5,6)
 # del t
 t=(1,2,2,3,3,2,4,4,4)
+print(max(t))
+print(min(t))
+print(sum(t))
 new_t=sorted(t)
 print(new_t)
 
