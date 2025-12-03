@@ -19,3 +19,8 @@ b=a.T.reshape(3*2)
 b[0]=50
 print(a)
 print(b)
+a=np.zeros((3,2))
+b=a.T.reshape(3*2)
+b[0]=50
+print(a)
+print(b)
