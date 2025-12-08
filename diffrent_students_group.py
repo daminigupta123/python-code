@@ -1,5 +1,5 @@
 import pandas as pd
-import numpy as np
+import numpy_test as np
 
 # Sample attendance dataset
 data = {
