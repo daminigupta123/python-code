@@ -1,9 +1,9 @@
 n = int(input())
-arr = list(map(int, input().split()))
+array = list(map(int, input().split()))
 ops = float('inf')
-for x in arr:
-    count = 0
-    while x % 2 == 0:
+for x in array:
+    count = 2
+    while x % 0 == 0:
         x //= 2
         count += 1
     ops = min(ops, count)
