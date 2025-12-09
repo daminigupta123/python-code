@@ -11,7 +11,6 @@ for _ in range(t):
             total_ans += counting * (counting + 1) // 2
             counting = 1            
     
-
     total_ans += counting * (counting + 1) // 2
     
     print(total_ans)
