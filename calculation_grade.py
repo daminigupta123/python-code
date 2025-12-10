@@ -28,7 +28,7 @@
 import pandas as pd
 import numpy as np # Import numpy
 df = pd.DataFrame({
-    'student': ['Alice', 'Bob', 'Charlie', 'David', 'Eva'],
+    'student': ['mini', 'ram', 'Charlie', 'sohan', 'riya'],
     'final_score': [95, 82, 76, 61, 54]
 })
 
@@ -40,7 +40,8 @@ conditions = [
     df['final_score'] < 60
 ]
 
-grades = ['A', 'B', 'C', 'D', 'F']
+grades = ['pass', 'pass', 'pass', 'pass', 'Fail']
+
 
 df['grade'] = np.select(conditions, grades, default='NaN') # Added a string default value
 
